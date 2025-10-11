@@ -1,0 +1,7 @@
+/home/arrma/BMSTU/Algorithmization_and_Programming/Laboratory_work/Lab_01/prnod/build/Desktop-Debug/CMakeFiles/prnod.dir
+/home/arrma/BMSTU/Algorithmization_and_Programming/Laboratory_work/Lab_01/prnod/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/arrma/BMSTU/Algorithmization_and_Programming/Laboratory_work/Lab_01/prnod/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/arrma/BMSTU/Algorithmization_and_Programming/Laboratory_work/Lab_01/prnod/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/arrma/BMSTU/Algorithmization_and_Programming/Laboratory_work/Lab_01/prnod/build/Desktop-Debug/CMakeFiles/install.dir
+/home/arrma/BMSTU/Algorithmization_and_Programming/Laboratory_work/Lab_01/prnod/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/arrma/BMSTU/Algorithmization_and_Programming/Laboratory_work/Lab_01/prnod/build/Desktop-Debug/CMakeFiles/install/strip.dir

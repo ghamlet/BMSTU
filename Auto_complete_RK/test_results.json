@@ -1,0 +1,52 @@
+{
+  "url": "file:///home/arrma/BMSTU/Auto_complete_RK/source_2025_1.html",
+  "questions": [
+    {
+      "id": "question-1",
+      "text": "What is the capital of France?",
+      "options": [
+        "Berlin",
+        "Paris",
+        "London",
+        "Rome"
+      ],
+      "type": "multiple_choice",
+      "context": ""
+    },
+    {
+      "id": "question-2",
+      "text": "What is the largest planet in our solar system?",
+      "options": [
+        "Earth",
+        "Saturn",
+        "Jupiter",
+        "Uranus"
+      ],
+      "type": "multiple_choice",
+      "context": ""
+    }
+  ],
+  "answers": [
+    {
+      "question_id": "question-1",
+      "question_text": "What is the capital of France?",
+      "correct_answer": "B",
+      "explanation": "Столицей Франции является Париж, который соответствует варианту B в списке ответов.",
+      "confidence": "100%",
+      "is_correct": true
+    },
+    {
+      "question_id": "question-2",
+      "question_text": "What is the largest planet in our solar system?",
+      "correct_answer": "C",
+      "explanation": "Юпитер является самой большой планетой в нашей солнечной системе, его диаметр составляет примерно 142 984 километра, что значительно больше, чем у других планет.",
+      "confidence": "100%",
+      "is_correct": true
+    }
+  ],
+  "summary": {
+    "total_questions": 2,
+    "successful_answers": 2,
+    "timestamp": 39524.23909578
+  }
+}

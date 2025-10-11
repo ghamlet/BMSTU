@@ -1,0 +1,1 @@
+/bin/gcc -g CMakeFiles/prnod.dir/main.c.o CMakeFiles/prnod.dir/Nod.c.o -o prnod 

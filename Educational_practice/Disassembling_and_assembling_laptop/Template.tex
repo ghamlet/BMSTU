@@ -1,0 +1,127 @@
+\documentclass[a4paper,14pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{geometry}
+\geometry{left=3cm, right=2cm, top=2cm, bottom=2cm}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{mathptmx} % Times New Roman для pdflatex
+
+% ВАЖНО: НАСТРОЙКА ПОДПИСЕЙ РИСУНКОВ В ФОРМАТЕ "Рисунок X - Описание"
+\captionsetup{
+    labelsep=endash,
+    justification=centering,
+    font=small,
+    labelfont=md
+}
+\addto\captionsrussian{\renewcommand{\figurename}{Рисунок}}
+
+% Форматирование разделов и подразделов
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+% Настройка отступов в списках
+\setlist[enumerate]{leftmargin=*}
+\setlist[itemize]{leftmargin=*}
+
+\begin{document}
+
+% ТИТУЛЬНЫЙ ЛИСТ
+\begin{center}
+\textbf{ОТЧЕТ} \\
+\vspace{0.5cm}
+По учебной практике \\
+\vspace{4cm}
+\end{center}
+
+\begin{flushright}
+Выполнили: ст. гр. ИУ6-13Б Иванов И. И. \\
+\end{flushright}
+
+\vspace{16cm}
+
+\begin{center}
+г. Москва \\
+\vspace{1cm}
+2025
+\end{center}
+
+\newpage
+
+% СОДЕРЖАНИЕ
+\section*{Содержание}
+\begin{enumerate}
+\item Введение
+\item Название основного раздела
+    \begin{enumerate}
+    \item[2.1.] Название подраздела первого уровня
+    \item[2.2.] Название подраздела первого уровня
+    \item[2.3.] Название подраздела первого уровня
+    \end{enumerate}
+\item Название раздела
+\item Заключение
+\item Используемая литература
+\end{enumerate}
+
+\newpage
+
+% ОСНОВНОЕ СОДЕРЖАНИЕ
+\section{Введение}
+
+Целью данной учебной практики являлось приобретение практических навыков по обслуживанию и ремонту аппаратного обеспечения. В ходе работы были изучены внутреннее устройство оборудования, методы его безопасной разборки и последующей сборки.
+
+\section{Название основного раздела}
+
+\subsection{Название подраздела первого уровня}
+
+Текст описания этапа работы. Подробное техническое описание выполняемых действий с использованием профессиональной терминологии.
+
+% ПРИМЕР ВСТАВКИ РИСУНКА С ПРАВИЛЬНОЙ ПОДПИСЬЮ
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{example_image.jpg}
+\caption{Процесс выполнения технологической операции}
+\end{figure}
+
+\subsection{Название подраздела первого уровня}
+
+Текст описания этапа работы. Подробное техническое описание выполняемых действий.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{component_view.jpg}
+\caption{Вид компонента с подключенными разъемами}
+\end{figure}
+
+\section{Сборка устройства}
+
+Сборка устройства производится в последовательности, обратной разборке.
+
+\begin{enumerate}
+\item \textbf{Первый этап сборки}. Подробное описание действий.
+\item \textbf{Второй этап сборки}. Подробное описание действий.
+\item \textbf{Третий этап сборки}. Подробное описание действий.
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{assembly_process.jpg}
+\caption{Процесс сборки компонентов устройства}
+\end{figure}
+
+\section{Заключение}
+
+В ходе учебной практики были успешно освоены основные принципы разборки и сборки оборудования. Были получены практические навыки по аккуратной работе с компонентами.
+
+\section{Используемая литература}
+
+\begin{enumerate}
+\item Название книги. – Город: Издательство, год.
+\item Название статьи // Название журнала. – год. – № номер. – С. страницы.
+\item Электронный ресурс: URL: ссылка (дата обращения: дд.мм.гггг).
+\end{enumerate}
+
+\end{document}
