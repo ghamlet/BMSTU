@@ -1,7 +1,27 @@
 #include <iostream>
+#include <fstream>
+#include <string>
 using namespace std;
 
+// Функция для отображения ASCII-арта
+void displayAsciiArt() {
+    ifstream file("graph-ascii-art.txt");
+    string line;
+    
+    if (file.is_open()) {
+        while (getline(file, line)) {
+            cout << line << endl;
+        }
+        file.close();
+    } else {
+        cout << "Не удалось открыть файл" << endl;
+    }
+}
+
+
 int main(){
+
+    displayAsciiArt();
 
     double x, y;
     cout << "Введите x и y \n";
